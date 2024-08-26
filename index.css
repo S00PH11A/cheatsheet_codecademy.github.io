@@ -1,0 +1,198 @@
+body {
+    font-family: "Lucida Grande", sans-serif;
+    background-color: #eeebebaa;
+  }
+  nav {
+    display: inline-flex;
+  }
+
+  h1 {
+    display: inline;
+    background-color: rgb(1, 115, 115);
+    color: rgb(211, 211, 211);
+    padding: 1em;
+  }
+  h2 {
+    background-color: rgb(122, 183, 183);
+    color: darkslategrey;
+    padding: 1em;
+  }
+  h3 {
+    background-color: darkslategrey;
+    color: rgb(211, 211, 211);
+    padding: 1em;
+  }
+  pre {
+    font-family: "Lucida Sans Typewriter", monospace;
+    background-color: #1f2f2f;
+    color: greenyellow;
+  }
+  ul li {
+    display: inline-flex;
+    background-color: rgb(211, 211, 211);
+    padding: 2em;
+  }
+  ul li:hover {
+    background-color: rgba(211, 211, 211, 0.55);
+  }
+  ol li {
+    background-color: #223434;
+    color: antiquewhite;
+    padding: 0 1em 0;
+  }
+
+  /*
+  section#HTML pre {
+    line-height: 1.5em;
+    padding: 2em;
+  }
+    */
+  section#HTML pre,
+  section#git pre,
+  section#JS pre,
+  section#CMD pre,
+  section#DOM pre,
+  section#CSS pre {
+    display: inline-flex;
+    padding: 0.75em 1.25em;
+  }
+  section#HTML p,
+  section#git p,
+  section#JS p,
+  section#CMD p,
+  section#DOM p,
+  section#CSS p {
+    display: inline-flex;
+    background-color: rgba(122, 183, 183, 0.75);
+    color: #223434;
+    padding: 0.75em 1.25em;
+    font-size:medium;
+    font-weight:600;
+  }
+
+  section#HTML a,
+  section#git a,
+  section#JS a,
+  section#CMD a,
+  section#DOM a,
+  section#CSS a {
+    display: inline-flex;
+    background-color: lightgrey;
+    padding: 0.75em;
+  }
+
+  section#examples a {
+    display: inline-flex;
+    background-color: lightgrey;
+    padding: 0.5em;
+}
+
+  section#HTML a:hover,
+  section#git a:hover,
+  section#JS a:hover,
+  section#CMD a:hover,
+  section#DOM a:hover,
+  section#CSS a:hover {
+    display: inline-flex;
+    background-color: rgba(211, 211, 211, 0.55);
+  }
+  footer h6 {
+    text-align: right;
+    background-color: dimgrey;
+    color: lightgrey;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  caption {
+    font-family: serif, times;
+    font-weight: 900;
+    font-size:xx-large;
+    color: darkslategray;
+  }
+
+  caption a {
+    font-family: serif, times;
+    font-weight: 900;
+    font-size: xx-large;
+    color: darkslategray;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    color: #FFF;
+    display: inline-block;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 20px 18px 10px 18px;
+    text-transform: uppercase;
+  }
+
+  .active {
+    color: #88CCF1;
+  }
+
+  /* Table */
+
+  table {
+    height: 40%;
+    left: 10%;
+    margin: 20px auto;
+    overflow-y: scroll;
+    position: static;
+    width: 80%;
+  }
+
+  thead th {
+    background-color: #1f2f2faa;
+    color: rgb(211, 211, 211);
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: larger;
+    text-align: center;
+  }
+
+
+  tr {
+    background: #f4f7f8;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+  }
+
+  th, td {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding: 20px;
+    text-align: left;
+    width: 33.3333%;
+  }
+
+  td {
+    font-family: "Lucida Sans Typewriter", monospace;
+    background-color: #1f2f2f;
+    color: greenyellow;
+  }
+
+  .search {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    color: #AAA;
+    padding: 20px;
+    margin: 50px auto 0px auto;
+    width: 77%;
+  }
+
+   .active {
+    color: #88CCF1;
+  }
