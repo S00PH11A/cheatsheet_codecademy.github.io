@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Web Dev Cheat-sheets</title>
+    <link href="index.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Web Dev Cheat-sheets</h1>
+      <nav>
+        <ul>
+          <li><a href="#HTML">HTML</a></li>
+          <li><a href="#CSS">CSS</a></li>
+          <li><a href="#CMD">CMD</a></li>
+          <li><a href="#DOM">DOM</a></li>
+          <li><a href="#JS">JS</a></li>
+          <li><a href="#git">Git</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+
+    <section id="HTML">
+      <h2>HTML Cheat-sheet</h2>
+
+      <article id="tags">
+        <h3>Common Tags</h3>
+
+        <div>
+            <pre>External Resource Link</pre>
+            <p>The &lt;link href="example.css" rel="stylesheet" /&gt; element creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link" target="_blank">MDN</a>
+          </div>
+
+        <div>
+            <pre>Navigation Section</pre>
+            <p>The &lt;nav&gt;&lt;/nav&gt; element provides links to page sections either within the current document or to other documents e.g. menus, tables of contents, and indexes.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav" target="_blank">MDN</a>
+          </div>
+
+        <div>
+            <pre>Head</pre>
+            <p>The &lt;head&gt;&lt;/head&gt; element contains machine-readable document info (metadata), like its title, scripts, and style sheets. There can be only one <head> element in an HTML document. </p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head" target="_blank">MDN</a>
+        </div>
+
+        <div>
+            <pre>Noscript</pre>
+            <p>The &lt;noscript&gt;&lt;/noscript&gt; element defines a section of HTML to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript" target="_blank">MDN</a>
+        </div>
+
+        <div>
+            <pre>Hyperlink or Anchor</pre>
+            <p>The &lt;a&gt;&lt;/a&gt; element creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">MDN</a>
+        </div>
+
+        <div>
+            <pre>Section Headings (h1 to h6)</pre>
+            <p>The &lt;h1&gt;&lt;/h1&gt; element is the highest section level and &lt;h&gt;&lt;/h&gt; is the lowest. By default, these create a block-level box in the layout</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">MDN</a>
+        </div>
+
+        <div>
+            <pre>Line Break</pre>
+            <p>The &lt;br&gt; element produces a line break in text (carriage-return) and is useful for poems, address etc, where the division of lines is significant.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br" target="_blank">MDN</a>
+        </div>
+
+        <div>
+            <pre>Table</pre>
+            <p>The &lt;table&gt;&lt;/table&gt; element represents information presented in a two-dimensional table comprised of rows and columns of cells containing data.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table" target="_blank">MDN</a>
+        </div>
+
+        <div>
+            <pre>Address</pre>
+            <p>The &lt;address&gt;&lt;/address&gt; element indicates that the enclosed HTML provides contact information for a person or people, or for an organization.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address" target="_blank">MDN</a>
+        </div>
+
+        <div>
+            <pre>HTML</pre>
+            <p>The &lt;html&gt;&lt;/html&gt; elements are written after our Doctype Declaration, and wrap all of our HTML code. It is sometimes known as the root element.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html" target="_blank">MDN</a>
+        </div>
+
+        <div>
+            <pre>Script</pre>
+            <p>The &lt;script&gt;&lt;/script&gt; element is typically used to embed or refer to JavaScript, JSON or WebGL's GLSL shader programming language code.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script" target="_blank">MDN</a>
+        </div>
+
+        <div>
+            <pre>Body</pre>
+            <p>The &lt;body&gt;&lt;/body&gt; element represents the content of an HTML document. There can be only one 'body' element in a document.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body" target="_blank">MDN</a>
+        </div>
+
+        <div>
+            <pre>List Item</pre>
+            <p>The &lt;ol&gt;&lt;/ol&gt; defines an ordered list, while &lt;ul&gt;&lt;/ul&gt; defines an unordered list in which we can place list items &lt;li&gt;&lt;/li&gt;.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li" target="_blank">MDN</a>
+        </div>
+
+        <div>
+            <pre>Content Division</pre>
+            <p>The &lt;div&gt;&lt;/div&gt; element is the most used tags for block-level organization and styling of page elements</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div" target="_blank">MDN</a>
+        </div>
+
+        <div>
+            <pre>Form</pre>
+            <p>The &lt;form&gt;&lt;/form&gt; element represents a document section containing interactive controls for submitting information.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form" target="_blank">MDN</a>
+        </div>
+
+        <div>
+            <pre>Comment</pre>
+            <p>The &lt;!-- This is a comment --&gt; is used for code or notes that will not show up on our browser.</p>
+            <a href="https://www.w3schools.com/tags/tag_comment.asp" target="_blank">W3C</a>
+        </div>
+
+        <div>
+            <pre>Doctype</pre>
+            <p>The &lt;!DOCTYPE html&gt; declaration should always be the first line of code in your HTML files.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Glossary/Doctype" target="_blank">MDN</a>
+        </div>
+
+        <div>
+            <pre>Paragraph</pre>
+            <p>The &lt;p&gt;&lt;/p&gt; element represents a paragraph which is a block-level element.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank">MDN</a>
+        </div>
+    </section>
+
+    <section id="examples">
+        <article id="basic">
+            <h3>Basic HTML sample script below</h3>
+            <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;!-- Metadata and document settings --&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Basic HTML Example&lt;/title&gt;
+    &lt;style&gt;
+        /* Basic styles for the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header, footer {
+            background-color: #f0f0f0;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        section {
+            margin: 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;!-- Header section --&gt;
+    &lt;header&gt;
+        &lt;h1&gt;Welcome to My Webpage&lt;/h1&gt;
+        &lt;nav&gt;
+            &lt;!-- Navigation menu --&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="#section1"&gt;Section 1&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#section2"&gt;Section 2&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#section3"&gt;Section 3&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/nav&gt;
+    &lt;/header&gt;
+
+    &lt;!-- Main content sections --&gt;
+    &lt;section id="section1"&gt;
+        &lt;h2&gt;Section 1: Text Formatting&lt;/h2&gt;
+        &lt;p&gt;This is a paragraph of text. Here are some common text formatting tags:&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;!-- List of text formatting examples --&gt;
+            &lt;li&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;mark&gt;Highlighted text&lt;/mark&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;del&gt;Strikethrough text&lt;/del&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;ins&gt;Inserted text&lt;/ins&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;Here is a &lt;a href="https://www.example.com" target="_blank"&gt;link to an external website which will open on a new tab&lt;/a&gt;.&lt;/p&gt;
+    &lt;/section&gt;
+
+    &lt;section id="section2"&gt;
+        &lt;h2&gt;Section 2: Images and Multimedia&lt;/h2&gt;
+        &lt;!-- Placeholder image --&gt;
+        &lt;img src="https://via.placeholder.com/350" alt="Placeholder image" width="350"&gt;
+        &lt;p&gt;Below is a video example:&lt;/p&gt;
+        &lt;!-- Video example --&gt;
+        &lt;video width="320" height="240" controls&gt;
+            &lt;source src="movie.mp4" type="video/mp4"&gt;
+            Your browser does not support the video tag.
+        &lt;/video&gt;
+    &lt;/section&gt;
+
+    &lt;section id="section3"&gt;
+        &lt;h2&gt;Section 3: Tables and Forms&lt;/h2&gt;
+        &lt;!-- Table example --&gt;
+        &lt;table&gt;
+            &lt;caption&gt;Sample Table&lt;/caption&gt;
+            &lt;thead&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;Header 1&lt;/th&gt;
+                    &lt;th&gt;Header 2&lt;/th&gt;
+                    &lt;th&gt;Header 3&lt;/th&gt;
+                &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Row 1, Cell 1&lt;/td&gt;
+                    &lt;td&gt;Row 1, Cell 2&lt;/td&gt;
+                    &lt;td&gt;Row 1, Cell 3&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Row 2, Cell 1&lt;/td&gt;
+                    &lt;td&gt;Row 2, Cell 2&lt;/td&gt;
+                    &lt;td&gt;Row 2, Cell 3&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+
+        &lt;!-- Form example --&gt;
+        &lt;form action="/submit" method="post"&gt;
+            &lt;fieldset&gt;
+                &lt;legend&gt;Contact Form&lt;/legend&gt;
+                &lt;!-- Input fields --&gt;
+                &lt;label for="name"&gt;Name:&lt;/label&gt;
+                &lt;input type="text" id="name" name="name" required&gt;
+                &lt;br&gt;
+                &lt;label for="email"&gt;Email:&lt;/label&gt;
+                &lt;input type="email" id="email" name="email" required&gt;
+                &lt;br&gt;
+                &lt;label for="message"&gt;Message:&lt;/label&gt;
+                &lt;textarea id="message" name="message" rows="4" cols="50"&gt;&lt;/textarea&gt;
+                &lt;br&gt;
+                &lt;button type="submit"&gt;Submit&lt;/button&gt;
+            &lt;/fieldset&gt;
+        &lt;/form&gt;
+    &lt;/section&gt;
+
+    &lt;!-- Footer section --&gt;
+    &lt;footer&gt;
+        &lt;p&gt;&copy; 2024 My Webpage. All rights reserved.&lt;/p&gt;
+    &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+            </pre>
+        </article>
+
+              <article id="form">
+                <h3>HTML Form sample script below</h3>
+                <pre>
+&lt;form action="" method="get" class="form-example"&gt;
+
+  &lt;fieldset&gt;
+    &lt;legend&gt;Describes fieldset&lt;/legend&gt;
+
+    &lt;div class="form-example"&gt;
+            &lt;input type="text" name="name" id="name" required /&gt;
+            &lt;label for="name"&gt;Enter your name: &lt;/label&gt;
+    &lt;/div&gt;
+
+    &lt;div class="form-example"&gt;
+        &lt;label for="email"&gt;Enter your email: &lt;/label&gt;
+        &lt;input type="email" name="email" id="email" required /&gt;
+      &lt;/div&gt;
+
+    &lt;div class="form-example"&gt;
+        &lt;input type="radio" name="vertical" id="option1" value="top"&gt;
+        &lt;label for="option1"&gt;Top&lt;/label&gt;
+      &lt;/div&gt;
+
+    &lt;p&gt;
+      &lt;label for="option2"&gt;
+        &lt;input type="radio" name="vertical" id="option2" value="bottom"&gt; Bottom
+      &lt;/label&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+      &lt;label for="horizontal"&gt;
+        Horizontal:
+      &lt;/label&gt;
+      &lt;select id="horizontal" name="horizontal"&gt;
+        &lt;option value="left"&gt;Left&lt;/option&gt;
+        &lt;option value="middle"&gt;Middle&lt;/option&gt;
+        &lt;option value="right"&gt;Right&lt;/option&gt;
+      &lt;/select&gt;
+    &lt;/p&gt;
+
+  &lt;/fieldset&gt;
+
+    &lt;div class="form-example"&gt;
+        &lt;input type="submit" value="Subscribe!" /&gt;
+    &lt;/div&gt;
+
+&lt;/form&gt;
+        </pre>
+
+    </article>
+
+              <article id="table">
+                <h3>HTML Table sample script below</h3>
+                <pre>
+&lt;table&gt;       &lt;!--this element creates a table--&gt;
+
+  &lt;caption&gt;Table Caption&lt;/caption&gt;
+
+  &lt;colgroup&gt;
+    &lt;col&gt;
+    &lt;col span="2" class="left-two"&gt;
+    &lt;col span="2" class="right-two"&gt;
+  &lt;/colgroup&gt;
+
+  &lt;!--Tables can be split into three main sections: a head, a body, and a footer --&gt;
+  &lt;thead&gt; &lt;!-- table head section --&gt;
+    &lt;tr&gt;   &lt;!--this element adds rows to a table --&gt;
+      &lt;th&gt;&lt;/th&gt;   &lt;!--this element --&gt;
+      &lt;th colspan="2"&gt;Left Two&lt;/th&gt;   &lt;!-- table data here will span 2 columns using the colspan attribute--&gt;
+      &lt;th colspan="2"&gt;Right Two&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+
+  &lt;tbody&gt;  &lt;!-- table body section --&gt;
+    &lt;tr&gt;
+      &lt;th rowspan="2"&gt;Top Two&lt;/th&gt;   &lt;!-- table data here will span 2 rows using the colspan attribute --&gt;
+      &lt;td&gt;Body 1,1&lt;/td&gt;  &lt;!--this element adds data to a row --&gt;
+      &lt;td&gt;Body 1,1&lt;/td&gt;
+      &lt;td&gt;Body 1,2&lt;/td&gt;
+      &lt;td&gt;Body 1,3&lt;/td&gt;
+      &lt;td&gt;Body 1,4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Body 2,1&lt;/td&gt;
+      &lt;td&gt;Body 2,2&lt;/td&gt;
+      &lt;td&gt;Body 2,3&lt;/td&gt;
+      &lt;td&gt;Body 2,4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th rowspan="2"&gt;Bottom Two&lt;/th&gt;
+      &lt;td&gt;Body 3,1&lt;/td&gt;
+      &lt;td&gt;Body 3,2&lt;/td&gt;
+      &lt;td&gt;Body 3,3&lt;/td&gt;
+      &lt;td&gt;Body 3,4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Body 4,1&lt;/td&gt;
+      &lt;td&gt;Body 4,2&lt;/td&gt;
+      &lt;td&gt;Body 4,3&lt;/td&gt;
+      &lt;td&gt;Body 4,4&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+
+  &lt;tfoot&gt;  &lt;!-- table footer section --&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;Footer 1&lt;/td&gt;
+      &lt;td&gt;Footer 2&lt;/td&gt;
+      &lt;td&gt;Footer 3&lt;/td&gt;
+      &lt;td&gt;Footer 4&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+
+&lt;/table&gt;
+
+                </pre>
+              </article>
+
+              <article id="semantic">
+                <h3>Semantic HTML sample script below</h3>
+                <pre>
+&lt;html lang="en"&gt;
+
+  &lt;head&gt;
+    &lt;title&gt;Title&lt;title&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+
+    &lt;header&gt;
+      Logo, title, navigation
+      &lt;nav&gt;
+        Primary and secondary menus but ever nest navs
+      &lt;/nav&gt;
+    &lt;/header&gt;
+
+    &lt;section&gt;
+      Related grouping of semantic meaning. Defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.
+
+      &lt;article&gt;
+        Self-contained content. It holds content that makes sense on its own such as articles, blogs, comments, etc.
+        &lt;p&gt;
+            Semantic HTML introduces meaning to a page through specific elements that provide context as to what is in between the tags.
+            Semantic HTML is a modern standard and makes a website accessible for people who use screen readers to translate the webpage and improves your website’s SEO.
+        &lt;/p&gt;
+      &lt;/article&gt;
+
+      &lt;article&gt;
+        This would still make sense if all other content is removed
+
+        &lt;aside&gt;
+          &lt;blockquote&gt;
+            Related to main but outside the main flow. It contains information that is related to the main content, but not required in order to understand the dominant information.
+          &lt;/blockquote&gt;
+        &lt;/aside&gt;
+
+      &lt;/article&gt;
+    &lt;/section&gt;
+
+    &lt;figure&gt;
+        encapsulates all types of media.
+
+        &lt;figcaption&gt; is used to describe the media in 'figure'&lt;/figcaption&gt;
+    &lt;/figure&gt;
+
+    &lt;address&gt;
+      &lt;p&gt;The &lt;address&gt; tag is useful to wrap around the section on our website that indicates the contact information of a person or an organization.&lt;br&gt; If &lt;address&gt; tag is used inside the &lt;body&gt; tag then it represents the contact information of the document&lt;br&gt; and if the &lt;address&gt; tag is used inside the &lt;article&gt; tag, then it represents the contact information of the article.&lt;/p&gt;
+      Organization Name: MacTavish Designs &lt;br&gt;
+      Web Site:
+      &lt;a href=
+      "https://zackmactavish.github.io/MacTavish/"&gt;
+      Zack MacTavish&lt;/a&gt;&lt;br&gt;
+      Portland, Oregon
+    &lt;/address&gt;
+
+    &lt;video&gt;used for media files.&lt;/video&gt;
+    &lt;audio src=""&gt;used for media files.&lt;/audio&gt;
+    &lt;embed&gt;
+
+    &lt;footer&gt;
+      Copyright, contact, links
+    &lt;/footer&gt;
+
+  &lt;/body&gt;
+
+&lt;/html&gt;
+
+                </pre>
+              </article>
+    </section>
+
+
+    <section id="CSS">
+      <h2>CSS Cheat-sheet</h2>
+      <article id="color">
+        <h3>Coloring</h3>
+        <div>
+            <pre><b>named-color e.g.</b> | red | tan | rebeccapurple</pre>
+            <p>A 'named-color' value can be used anywhere a &lt;color&gt; can be used.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/named-color" target="_blank">MDN</a>
+          </div>
+          <div>
+            <pre><b>hex-color e.g.</b> | #ff00ff | #00ffff | #090 | #FF0099AA</pre>
+            <p>A 'hex-color' value can be used anywhere a &lt;color&gt; can be used.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/hex-color" target="_blank">MDN</a>
+          </div>
+          <div>
+            <pre><b>rgb e.g.</b> | rgb(31 120 50) | rgba(255 122 127 0.6) | rgb(30% 20% 50%)</pre>
+            <p>Expresses the red, green, blue color and alpha components. Alpha represents the color's transparency.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgb" target="_blank">MDN</a>
+          </div>
+          <div>
+            <pre><b>hsl e.g.</b> | hsl(50 80% 40%) | hsl(150deg 30% 60%) | hsla(0.3turn 60% 45% / 0.7) | hsl(0 80% 50% / 25%);</pre>
+            <p>Expresses the hue, saturation, lightness and alpha components. Alpha represents the color's transparency.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl" target="_blank">MDN</a>
+          </div>
+      </article>
+      <article id="position">
+        <h3>Positioning</h3>
+        <div>
+          <pre>position: <b>static</b> | relative | absolute | sticky</pre>
+          <p>sets element's positioning, along with top, left, bottom, right properties</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position" target="_blank">MDN</a>
+        </div>
+        <div>
+          <pre>margin 0 auto</pre>
+          <p>centers block in containing block</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/margin" target="_blank">MDN</a>
+        </div>
+        <div>
+          <pre>overflow: <b>visible</b> | hidden | scroll | auto | clip | hidden visible</pre>
+          <p>how to render content outside content-box</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/overflow" target="_blank">MDN</a>
+        </div>
+      </article>
+      <article id="size">
+        <h3>Sizing</h3>
+        <div>
+          <pre>box-sizing: <b>content-box</b> | border-box</pre>
+          <p>content-box is default</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing" target="_blank">MDN</a>
+        </div>
+      </article>
+      <div>
+        <pre>height: &lt;px | em | % | keyword&gt;</pre>
+        <p>Sets height for non-inline elements</p>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/height" target="_blank">MDN</a>
+      </div>
+      <div>
+        <pre>width: &lt;px | em | % | keyword&gt;</pre>
+        <p>Sets width for non-inline elements</p>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/width" target="_blank">MDN</a>
+      </div>
+    </section>
+
+    <section id="CMD">
+        <h2>Command Prompt Cheat-sheet</h2>
+        <table>
+            <caption>Windows Commands -<a href="https://www.cs.columbia.edu/~sedwards/classes/2017/1102-spring/Command%20Prompt%20Cheatsheet.pdf" target="_blank">Source</a><br></caption>
+
+            <!--Tables head section -->
+            <thead>
+              <tr>
+                <th>Command</th>
+                <th>Description</th>
+                <th>Usage</th>
+              </tr>
+            </thead>
+
+            <!-- table body section -->
+            <tbody>
+              <tr>
+                <td>dir</td>
+                <td>Displays a list of a folder’s files and subfolders</td>
+                <td>dir (shows current folder)<br>dir <i>myfolder</i></td>
+              </tr>
+              <tr>
+                <td>cd<br>chdir</td>
+                <td>Displays the name of the current
+                    directory or changes the current
+                    folder.</td>
+                <td>cd <i>filepath</i><br>
+                    chdir <i>filepath</i><br>
+                    cd .. (goes one directory up)</td>
+              </tr>
+              <tr>
+                <td>md<br>
+                    mkdir</td>
+                <td>Creates a folder (directory)</td>
+                <td>md <i>folder-name</i><br>
+                    mkdir <i>folder-name</i></td>
+              </tr>
+              <tr>
+                <td>rm<br>
+                    rmdir</td>
+                <td>Deletes a folder (directory)</td>
+                <td>rm <i>folder-name</i><br>
+                    rmdir <i>folder-name</i><br>
+                    rm /s <i>folder-name</i><br>
+                    rmdir /s <i>folder-name</i><br>
+                    <b>Note: if the folder isn’t empty,
+                        you must add the /s.</b></td>
+              </tr>
+              <tr>
+                <td>copy</td>
+                <td>Copies a file from one location to
+                    another</td>
+                <td>copy <i>filepath-from filepath-to</i></td>
+              </tr>
+              <tr>
+                <td>move</td>
+                <td>Moves file from one folder to
+                    another</td>
+                <td>move <i>folder1\file.txt folder2\</i></td>
+              </tr>
+              <tr>
+                <td>ren<br>
+                    rename</td>
+                <td>Changes the name of a file</td>
+                <td>ren <i>file1 file2</i></td>
+              </tr>
+              <tr>
+                <td>del</td>
+                <td>Deletes one or more files</td>
+                <td>del <i>filename</i></td>
+              </tr>
+              <tr>
+                <td>exit</td>
+                <td>Exits batch script or current
+                    command control</td>
+                <td>exit</td>
+              </tr>
+              <tr>
+                <td>echo</td>
+                <td>Used to display a message or to
+                    turn off/on messages in batch
+                    scripts</td>
+                <td>echo <i>message</i></td></td>
+              </tr>
+              <tr>
+                <td>type</td>
+                <td>Displays contents of a text file</td>
+                <td>type <i>myfile.txt</i></td>
+              </tr>
+              <tr>
+                <td>fc</td>
+                <td>Compares two files and displays the difference between them</td>
+                <td>fc <i>file1 file2</i></td>
+              </tr>
+              <tr>
+                <td>cls</td>
+                <td>Clears the screen</td>
+                <td>cls</td>
+              </tr>
+              <tr>
+                <td>help</td>
+                <td>Provides more details about DOS/Command Prompt commands</td>
+                <td>help (lists all commands)<br>
+                    help<i> command</i></td>
+              </tr>
+            </tbody>
+          </table><br><br>
+
+
+            <table>
+              <caption>Linux Commands -<a href="https://www.geeksforgeeks.org/linux-commands-cheat-sheet/" target="_blank">Source</a></caption>
+
+              <!--Tables head section -->
+              <thead>
+                <tr>
+                  <th>Command</th>
+                  <th>Description</th>
+                  <th>Usage</th>
+                </tr>
+              </thead>
+
+              <!-- table body section -->
+              <tbody>
+                <tr>
+                  <td>ls</td>
+                  <td>List files and directories.</td>
+                  <td><b>ls -l</b> - displays files and directories with detailed information.<br>
+                    <b>ls -a</b> - shows all files and directories, including hidden ones.<br>
+                    <b>ls -lh</b> -  displays file sizes in a human-readable format.</td>
+                </tr>
+                <tr>
+                  <td>cd</td>
+                  <td>Changes the current directory to the specified path.</td>
+                  <td><b>cd /path/to/directory</b></td>
+                </tr>
+                <tr>
+                  <td>pwd</td>
+                  <td>Displays the current working directory.</td>
+                  <td>pwd</td>
+                </tr>
+                <tr>
+                  <td>mkdir</td>
+                  <td>Create a new directory.</td>
+                  <td>mkdir <i></i>my_directory</i><br>
+                </tr>
+                <tr>
+                  <td>rm</td>
+                  <td>Copy files and directories.</td>
+                  <td><b>rm file.txt</b> - deletes the file named “file.txt”.<br>
+                    <b>rm -r my_directory</b> - deletes the directory “my_directory” and its contents.<br>
+                    <b>rm -f file.txt</b> -  forcefully deletes the file “file.txt” without confirmation.</td>
+                </tr>
+                <tr>
+                  <td>cp</td>
+                  <td>Moves file from one folder to
+                      another</td>
+                  <td><b>cp -r <i>directory destination</i></b> - copies the directory “directory” and its contents to the specified destination.<br>
+                    <b>cp <i>file.txt destination</i></b> -  copies the file “file.txt” to the specified destination.</td>
+                </tr>
+                <tr>
+                  <td>mv</td>
+                  <td>Move/rename files and directories.</td>
+                  <td><b>mv <i>file.txt new_name.txt</i></b> - renames the file “file.txt” to “new_name.txt”.<br>
+                    <b>mv <i>file.txt directory</i></b> -  moves the file “file.txt” to the specified directory.</td>
+                </tr>
+                <tr>
+                  <td>touch</td>
+                  <td>Create an empty file or update file timestamps.</td>
+                  <td>touch <i>file.txt</i></td>
+                </tr>
+                <tr>
+                  <td>cat</td>
+                  <td>View the contents of a file.</td>
+                  <td>cat <i>file.txt</i></td>
+                </tr>
+                <tr>
+                  <td>head</td>
+                  <td>Display the last few lines of a file.</td>
+                  <td><b>head <i>file.txt</i></b> - shows the first 10 lines of the file “file.txt”.<br>
+                    <b>head -n 5 <i>file.txt</i></b> -  displays the first 5 lines of the file “file.txt”.</td>
+                </tr>
+                <tr>
+                  <td>tail</td>
+                  <td>Displays contents of a text file</td>
+                  <td><b>tail <i>file.txt</i></b> - shows the last 10 lines of the file “file.txt”.<br>
+                    <b>tail -n 5 <i>file.txt</i></b> -  displays the last 5 lines of the file “file.txt”.</td>
+                </tr>
+                <tr>
+                  <td>ln</td>
+                  <td>Create links between files.</td>
+                  <td><b>ln -s <i>source_file link_name</i></b></td>
+                </tr>
+                <tr>
+                  <td>find</td>
+                  <td>Search for files and directories.</td>
+                  <td><b>find /path/to/search -name “*.txt”</b> - searches for all files with the extension “.txt” in the specified directory.</td>
+                </tr>
+                <tr>
+                  <td>help</td>
+                  <td>Provides more details about DOS/Command Prompt commands</td>
+                  <td>help (lists all commands)<br>
+                      help<i> command</i></td>
+                </tr>
+              </tbody>
+            </table><br><br>
+          </div>
+        </article>
+    </section>
+
+    <section id="DOM">
+      <h2>DOM Cheat-sheet</h2>
+      <article id="query">
+        <h3>Querying/Selecting Elements</h3>
+        <div>
+          <pre>document.getElementById(id)</pre>
+          <p>returns element object by id</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById" target="_blank">MDN</a>
+        </div>
+        <div>
+          <pre>document.getElementsByClassName(className)</pre>
+          <p>returns live HTMLCollection of elements by class</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName" target="_blank">MDN</a>
+        </div>
+        <div>
+          <pre>document.getElementsByTagName(tagName)</pre>
+          <p>returns live HTMLCollection of elements by tag</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/API/document/getElementsByTagName" target="_blank">MDN</a>
+        </div>
+        <div>
+          <pre>document.querySelector(cssSelector)</pre>
+          <p>returns the first element matching selector(s)</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector" target="_blank">MDN</a>
+        </div>
+        <div>
+          <pre>document.querySelectorAll(cssSelector)</pre>
+          <p>returns static NodeList representing elements matching selector(s)</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll" target="_blank">MDN</a>
+        </div>
+      </article>
+      <article id="select">
+        <h3>Traversing Elements</h3>
+        <div>
+          <pre>firstElementChild, lastElementChild</pre>
+          <p>returns first/last child element or null if none</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/API/ParentNode" target="_blank">MDN</a>
+        </div>
+        <div>
+          <pre>nextElementChild, previousElementChild
+nextElementSibling, previousElementSibling
+parentNode, childNodes, childElementCount</pre>
+          <p>self-explanatory</p>
+          <a href="https://javascript.info/dom-navigation#siblings-and-the-parent">JAVASCRIPT.INFO</a>
+        </div>
+      </article>
+    </section>
+
+    <section id="JS">
+      <h2>JavaScript Cheat-sheet</h2>
+      <article id="arrays">
+        <h3>Arrays</h3>
+        <div>
+          <pre>Array.from(arrayLike[, mapFn[, thisArg]])</pre>
+          <p>creates mapped array from array-like iterable object</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from" target="_blank">MDN</a>
+        </div>
+        <div>
+          <pre>Array.prototype.includes(valueToFind[, fromIndex])</pre>
+          <p>returns true if value found</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes" target="_blank">MDN</a>
+        </div>
+      </article>
+      <article id="objects">
+        <h3>Objects</h3>
+        <div>
+          <pre>Object.prototype.hasOwnProperty('property')</pre>
+          <p>returns true of object has property (not inherited) specified in string</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty" target="_blank">MDN</a>
+        </div>
+        <div>
+          <pre>for (let [key, value] of Object.entries(object1))</pre>
+          <p>returns array of object's keys and values:&nbsp;<strong>[key, value]</strong></p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries" target="_blank">MDN</a>
+        </div>
+        <div>
+          <pre>console.log(Object.keys(object1))</pre>
+          <p>returns array of object's own property names</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys" target="_blank">MDN</a>
+        </div>
+      </article>
+      <article id="strings">
+        <h3>Strings</h3>
+        <div>
+          <pre>stringVar.includes(searchString[, position])</pre>
+          <p>returns true if searchString found in stringVar, beginning at position</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes" target="_blank">MDN</a>
+        </div>
+      </article>
+      <article id="misc">
+        <h3>Miscellaneous</h3>
+        <div>
+          <pre>parseInt(process.version.slice(1))</pre>
+          <p>returns node's major version number</p>
+          <a href="https://nodejs.org/en/knowledge/getting-started/the-process-module/" target="_blank">nodejs article</a>
+          <a href="https://nodejs.org/dist/latest-v13.x/docs/api/process.html#process_process_version" target="_blank">nodejs docs</a>
+        </div>
+        <div>
+          <pre>typeof variable === "undefined"</pre>
+          <p>checks if variable is defined<em>--do not forget the quotes since:</em><strong>&nbsp;typeof typeof whatever === "string"</strong></p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof" target="_blank">MDN</a>
+        </div>
+      </article>
+    </section>
+
+    <section id="git">
+      <h2>Git Cheat-sheet</h2>
+      <article id="view">
+        <h3>Viewing</h3>
+        <div>
+          <pre>git log --oneline</pre>
+          <p>shows most concise history format</p>
+          <a href="https://git-scm.com/docs/git-log" target="_blank">git reference</a>
+        </div>
+        <div>
+          <pre>git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=human</pre>
+          <p>shows a practical format</p>
+        </div>
+      </article>
+      <article id="create">
+        <h3>Creating and Committing</h3>
+        <div>
+          <pre>git init</pre>
+          <p>creates local repository<em>--don't forget .gitignore</em></p>
+        </div>
+        <div>
+          <pre>git clone &lt;http | https | ssh | git URL&gt;</pre>
+          <p>(http and git don't require credentials)</p>
+        </div>
+        <div>
+          <pre>git add -A [-v]</pre>
+          <p>adds, modifies, and removes entries to match working tree</p>
+          <a href="https://git-scm.com/docs/git-add" target="_blank">git reference</a>
+        </div>
+        <div>
+          <pre>git add -u [-v]</pre>
+          <p>removes and modifies entries to match working tree; adds nothing</p>
+        </div>
+        <div>
+          <pre>git rm <i>&lt;file&gt;</i></pre>
+          <p>removes file from working tree and index</p>
+        </div>
+        <div>
+          <pre>git commit -m <i>"Message"</i></pre>
+          <p>commits working tree to branch</p>
+          <a href="https://git-scm.com/docs/git-commit" target="_blank">git reference</a>
+          <a href="https://chris.beams.io/posts/git-commit/#seven-rules" target="_blank">rules</a>
+        </div>
+        <div>
+          <pre>git commit --amend -m <i>"New message"</i></pre>
+          <p>add changes and/or changes message to last commit</p>
+        </div>
+      </article>
+      <article id="branch">
+        <h3>Branching and Merging</h3>
+        <div>
+          <pre>git branch -vva</pre>
+          <p>lists all local and remote branches</p>
+        </div>
+        <div>
+          <pre>git branch <i>&lt;branch-name&gt;</i></pre>
+          <p>creates new branch</p>
+        </div>
+        <div>
+          <pre>git branch -d <i>&lt;branch-name&gt;</i></pre>
+          <p>deletes local branch</p>
+        </div>
+        <div>
+          <pre>git checkout <i>&lt;branch-name&gt;</i></pre>
+          <p>checks out local branch</p>
+        </div>
+        <div>
+          <pre>git checkout -b <i>&lt;branch-name&gt;</i></pre>
+          <p>shortcut for git branch + git checkout &lt;branch-name&gt</p>
+        </div>
+        <div>
+          <pre>git merge <i>&lt;branch-name&gt;</i></pre>
+          <p>merges branch-name into current checked-out branch</p>
+        </div>
+        <div>
+          <pre>git merge --abort</pre>
+          <p>aborts merge during conflict resolution</p>
+        </div>
+      </article>
+      <article id="stash">
+        <h3>Stashing</h3>
+        <div>
+          <pre>git stash</pre>
+          <p>stashes local changes and cleans working directory</p>
+        </div>
+        <div>
+          <pre>git stash list</pre>
+          <p>lists stashes, newest on top</p>
+        </div>
+        <div>
+          <pre>git stash pop</pre>
+          <p>applies changes to working directory and removes stash</p>
+        </div>
+        <div>
+          <pre>git stash apply [<i>stash-name</i>]</pre>
+          <p>applies changes but keeps stash</p>
+        </div>
+        <div>
+          <pre>git stash drop [<i>stash-name</i>]</pre>
+          <p>deletes stash</p>
+        </div>
+      </article>
+      <article id="undo">
+        <h3>Undoing</h3>
+        <div>
+          <pre>git checkout <i>file/to/restore.ext</i></pre>
+          <p>restores a file to the last committed version</p>
+        </div>
+        <div>
+          <pre>git reset HEAD <i>file/to/unstage.ext</i></pre>
+          <p>clears staging area of staged changes without changing working copy</p>
+          <a href="https://git-scm.com/docs/git-reset" target="_blank">git reference</a>
+        </div>
+        <div>
+          <pre>git reset --hard &lt;HEAD | 7-hash-digits&gt;</pre>
+          <p>replaces working copy files with last or specified commit, moves HEAD</p>
+        </div>
+        <div>
+          <pre>git revert &lt;HEAD | 7-hash-digits&gt;</pre>
+          <p>produces new commit with changes to revert to last or specified commit</p>
+        </div>
+      </article>
+      <article id="remote">
+        <h3>Remote</h3>
+        <div>
+          <pre>git remote add <i>upstream</i> &lt;http | https | ssh | git URL&gt;</pre>
+          <p>adds remote repository</p>
+        </div>
+        <div>
+          <pre>git remote -v</pre>
+          <p>lists remote repositories with URLs</p>
+        </div>
+        <div>
+          <pre>git fetch <i>origin</i></pre>
+          <p>updates local information about the remote</p>
+        </div>
+        <div>
+          <pre>git pull [<i>upstream master</i>]</pre>
+          <p>fetches and merges remote commits</p>
+        </div>
+        <div>
+          <pre>git checkout --track <i>origin/branch-name</i></pre>
+          <p>creates and checks out local branch with same name as remote</p>
+        </div>
+        <div>
+          <pre>git push [-u <i>origin branch-name</i>]</pre>
+          <p>uploads local commits to remote, [optional] required if not tracked</p>
+        </div>
+        <div>
+          <pre>git push origin --delete <i>branch-name</i></pre>
+          <p>deletes remote branch</p>
+        </div>
+      </article>
+      <article id="config">
+        <h3>Configuring</h3>
+        <div>
+          <pre>git config --list [--local|--global][ | sort]</pre>
+          <p>shows current configuration</p>
+          <a href="https://git-scm.com/docs/git-config" target="_blank">git reference</a>
+        </div>
+        <div>
+          <pre>git config [--global] core.editor <i>/path/to/editor</i></pre>
+          <p>selects editor for blank commit comment</p>
+        </div>
+      </article>
+      <article id="workflow">
+        <h3>Workflow</h3>
+        <div>
+          <p>From:</p> <a href="https://learn-2.galvanize.com/cohorts/1792/blocks/111/content_files/Git_and_the_Command_Line/git-workflow-overview.md" target="_blank">HR Git Workflow</a>
+          <ol>
+            <li>Fork project from&nbsp;<a href="https://github.com/orgs/hackreactor/dashboard" target="_blank">hackreactor</a>&nbsp;GitHub</li>
+            <li>Clone GitHub forked project to local machine
+              <pre>git clone https://github.com/<i>USER_NAME/REPOSITORY_NAME</i>.git</pre>
+            </li>
+            <li>Add remote to point to original (upstream) repo
+              <pre>git remote add upstream https://github.com/<i>USER_NAME/REPOSITORY_NAME</i>.git</pre>
+            </li>
+            <li>Check for correct branch and clean staging area
+              <pre>git status</pre>
+            </li>
+            <li>Make smallest possible change to add or improve something; review
+              <pre>git status, git diff</pre>
+            </li>
+            <li>Add files to commit
+              <pre>git add, git status</pre>
+            </li>
+            <li>Commit changes
+              <pre>git commit, git status</pre>
+            </li>
+            <li>Push changes to GitHub fork
+              <pre>git push origin master</pre>
+            </li>
+          </ol>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <h6>
+        2024&nbsp;&nbsp;S00PH11Az Cheat-sheet adapted from &nbsp;&nbsp;<a href="https://github.com/WestComputing/cheat-sheet" target="_blank"><b>WestComputing</b></a>
+      </h6>
+    </footer>
+    </main>
+  </body>
+</html>
